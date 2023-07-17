@@ -39,7 +39,7 @@ void PrintArray2D(double[,] array)
 }
 
 int rows = ReadInt("Введите количество строк => ");
-int cols = ReadInt("Dведите количество столбцов => ");
+int cols = ReadInt("Введите количество столбцов => ");
 
 double[,] arrayone = GenerateArray2D(cols, rows);
 PrintArray2D(arrayone);
